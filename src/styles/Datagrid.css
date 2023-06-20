@@ -1,0 +1,119 @@
+.dx-datagrid {
+  font-family: "Segoe UI", "Helvetica Neue", "Trebuchet MS", Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 2.3;
+  height: auto;
+  color: #333;
+  background-color: #fff;
+  border: 0;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.dx-datagrid .dx-sort-up:before,
+.dx-datagrid .dx-sort-down:before {
+  font-family: DXIcons, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dx-datagrid .dx-sort-up:before {
+  content: "\f051";
+  color: #744bfc;
+}
+
+.dx-datagrid .dx-sort-down:before {
+  content: "\f052";
+  color: #c0b8dc;
+}
+
+/* link alan */
+.dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-first-child,
+.dx-datagrid-content .dx-datagrid-table .dx-row > td:first-child,
+.dx-datagrid-content .dx-datagrid-table .dx-row > tr > td.dx-first-child,
+.dx-datagrid-content .dx-datagrid-table .dx-row > tr > td:first-child {
+}
+
+.dx-datagrid-content .dx-datagrid-table.dx-datagrid-table-fixed {
+  height: 3rem;
+  position: relative;
+}
+
+.dx-header-row > td > .dx-datagrid-text-content {
+  font-family: "Poppins";
+  color: #000;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 0.3rem 0 0.3rem 2rem;
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+  font-family: "Poppins";
+  color: #000;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.dx-datagrid-pager {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #eff2ff;
+  border-bottom: none;
+}
+
+.dx-pager .dx-pages .dx-info {
+}
+
+.dx-pager.dx-light-mode .dx-page-sizes::before {
+  content: "Show: ";
+  font-family: "Poppins";
+  color: #744bfc;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+}
+
+.dx-pager.dx-light-mode .dx-page-sizes {
+  width: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dx-dropdowneditor.dx-dropdowneditor-field-clickable,
+.dx-dropdowneditor.dx-dropdowneditor-field-clickable {
+  background: #ffffff;
+  border: 1px solid #cfc0ff;
+  border-radius: 39px;
+}
+
+.dx-pager .dx-pages .dx-prev-button,
+.dx-pager .dx-pages .dx-next-button {
+  color: #744bfc;
+}
+
+.dx-pager .dx-light-pages .dx-page-index,
+.dx-pager .dx-light-pages .dx-pages-count {
+  color: #744bfc;
+}

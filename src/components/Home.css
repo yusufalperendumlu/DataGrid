@@ -1,0 +1,248 @@
+.top-sec {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.find {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.search-bar {
+  width: 20rem;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 18px;
+  flex: 1;
+  height: 100%;
+  color: #474646;
+  text-indent: 2rem;
+}
+
+.search-bar .search {
+  font-size: x-large;
+  width: 50px;
+  height: 50px;
+  background-color: #744bfc;
+  color: #ffffff;
+  border-radius: 0 45px 45px 0;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  cursor: pointer;
+  margin-left: -50px;
+  transition: all 0.35s ease-in;
+}
+
+.search-bar .search:hover {
+  background-color: #370ebf;
+  transition: all 0.35s ease-out;
+}
+
+.filter {
+  font-size: x-large;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #744bfc;
+  border-radius: 45px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  cursor: pointer;
+  margin-left: 1.5rem;
+  transition: all 0.35s ease-in;
+}
+
+.add {
+  font-size: 1.3rem;
+  width: auto;
+  height: 50px;
+  background-color: #744bfc;
+  color: #fff;
+  border-radius: 45px;
+  padding: 0 1rem;
+  border: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+}
+
+.add span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 1rem 0 0;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  transition: all 500ms ease-out;
+}
+
+.popup-content {
+  width: 30%;
+  height: 40%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #424242;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+
+.times {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #33363f;
+  cursor: pointer;
+}
+
+.popup-content form {
+  width: 100%;
+  height: 100%;
+  color: #424242;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.popup-content form label {
+  color: #000;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.popup-content form input,
+textarea {
+  width: 93%;
+  height: 30px;
+  font-family: sans-serif;
+  border: none;
+  outline: none;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 10px;
+  padding: 0.3rem 1rem;
+  font-size: 1.2rem;
+  resize: none;
+  transition: all 300ms ease-in-out;
+}
+
+textarea {
+  padding: 0.4rem 1rem 0 1rem;
+}
+
+.popup-content form .buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  gap: 1rem;
+}
+
+.popup-content form .buttons .cancel {
+  width: 20%;
+  height: 40px;
+  background-color: #f5f7ff;
+  color: #744bfc;
+  font-weight: 600;
+  border-radius: 45px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.138);
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+}
+
+.popup-content form .buttons .cancel:hover {
+  background-color: #e6e6e6;
+  transition: all 0.35s ease-out;
+}
+
+.popup-content form .buttons .save {
+  width: 20%;
+  height: 40px;
+  background-color: #744bfc;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 45px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.138);
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+}
+
+.popup-content form .buttons .save:hover {
+  background-color: #370ebf;
+  transition: all 0.35s ease-out;
+}
+
+.popup-content form input:focus,
+textarea:focus {
+  border: 1px solid #744bfc;
+  transition: all 300ms ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .top-sec {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .add {
+    width: 7.5%;
+    margin-left: 2rem;
+  }
+
+  .add p {
+    display: none;
+  }
+}
