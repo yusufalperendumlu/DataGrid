@@ -12,6 +12,7 @@ interface DatagridProps {
 const pageSizes = [10, 25, 50, 100];
 
 const emptyData = Array.from({ length: 10 - DataGrid.length }, () => ({
+  // data tablosunda boşluklar için
   link: "",
   name: "",
   description: "",
