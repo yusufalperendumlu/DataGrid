@@ -20,7 +20,6 @@ const Home = () => {
   const [name, setName] = useState<string>("");
   const [description, setDescription] = useState<string>("");
 
-  const [filter, setFilter] = useState<string>("");
   const [search, setSearch] = useState<string>("");
 
   const handleAddData = () => {
@@ -106,7 +105,7 @@ const Home = () => {
           </div>
         )}
       </div>
-      <Datagrid filter={filter} search={search} />
+      <Datagrid search={search} />
     </div>
   );
 };

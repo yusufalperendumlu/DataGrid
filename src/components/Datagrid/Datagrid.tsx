@@ -6,7 +6,6 @@ import DataGrid, { Column, Pager, Paging } from "devextreme-react/data-grid";
 import { DataService } from "../../services/DataService";
 
 interface DatagridProps {
-  filter: string;
   search: string;
 }
 
