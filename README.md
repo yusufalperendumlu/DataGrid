@@ -23,7 +23,7 @@ Bu proje [React-ts](https://vitejs.dev/) ve css kullanarak geliştirdiğim [Data
 Ardından terminal ekranını açarak, projenin kurulmasını istediğiniz bir alana gelerek yapıştırıp çalıştırınız.
 
 ```
-git clone https://github.com/yusufalperendumlu/Datagrid.git
+https://github.com/yusufalperendumlu/DataGrid.git
 ```
 <br />
 Klonlama işleminin ardından terminal ekranına istediğiniz projenin adını yazarak, aşağıda bulunan kodu yapıştırıp çalıştırınız.
