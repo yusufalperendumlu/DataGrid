@@ -6,17 +6,17 @@ export const MenuData = [
     },
     {
         title: "Jüri - Yarışma Yazılımı",
-        url: "/yazilim",
+        url: "/case-study/juri-yarisma-yazilimi/",
         cName: "nav-links",
     },
     {
         title: "Word Ninja",
-        url: "/ninja",
+        url: "https://getwordninja.com/",
         cName: "nav-links",
     },
     {
         title: "Word Pyramids",
-        url: "/pyramids",
+        url: "/case-study/word-pyramids-kelime-bulmaca-oyunu/",
         cName: "nav-links",
     },
 ]

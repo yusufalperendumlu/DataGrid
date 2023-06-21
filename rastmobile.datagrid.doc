@@ -1,0 +1,25 @@
+Proje datagrid kütüphanesini kullanarak, kullanıcının "sosyal medya linki, adı ve açıklamsını" tutacak bir table oluşturma. Kullanıcı eklediklerini de aynı zamanda tutacak bir uygulama örneğini sizlerin Figma'da belirlediğiniz tasarımla paylaşmaktayım.
+
+Nabvar:
+
+1-Logo: Figmada ki tasarımın ekran görüntüsünü alıp punlic dosyasına alarak kullandım.
+
+2-Element: Sizlerin belirlediği boyutta ve renkte yerleştirdikten sonra üzerine gelindiğinde farklı bir tasarım özelliğide sizi karşılıyor olacak vedahi tıklanılması durumunda da sizi 
+"Hakkımızda -> /hakkimizda; 
+Jüri - Yarışma Yazılımı ->/case-study/juri-yarisma-yazilimi/;
+Word Ninja -> https://getwordninja.com/
+Word Pyramids -> /case-study/word-pyramids-kelime-bulmaca-oyunu/;" sayfalarına yönledirecektir. Bunları Rast Mobile'nin kendi internet sayfasında ki yönlendirmelerinden aldığımı belirtmek isterim. Elementleride MenuData.ts'in içerisinde tutarak dinamik bir hale getirdim.
+
+3-Sosyal Medya: Herbirini React-Icon module kullanarak çektim. Ardından bunlar içindeki props olarak Link componentinin href prop'sine verilen url adresleriyle bağlantı kurdum.
+
+Home:
+
+Home.css ile alanını tasarladığımız bu kısımdan bahsedelim.
+
+Arama ve filtreleme yapıları tasarıma uygun olarak oluşuturup herhangi bir method oluşturmadım(Gerek tanımlama da veya figma üzerinde yapılmasına dair bir durum görmemem gerekse final dönemime denk gelmesinden dolayı o kısımla ilgilenmedim.)
+
+Yeni hesap ekleme için Home.tsx showOpen hooku ile conditionals yapısını kullanarak tıklanılması durumunda yeni bilgileri gireceğimiz modal açılacaktır. Ardından kaydetmesi durumunda service de kullandığım uuid npm paketiyle her bir idyi dönüyor. Taskta bonus olarak belirtilen kullanıcının localinde tutma işlemide yine service.ts de anlatımlı olarak LocalStroge kaydediliyor. Kaydedilenler props yapısındaki kullanım sebebiyle en üste konumlandırılıyor. 
+
+Datagrid librarydeki yapı yerine konumlandırıldı ve istenilen propertyler uygulamada yerini aldı. Sadece propertylerin tanımlanması yetmedi tabi ekstra olarak styles dosyasında ki Datagrid.css de daha da ayrıntılı bir biçimde stillendirdim.
+
+Genel olarak öğrendiklerimi yansıtabildiğim, yeni şeyler öğrendiğim ve deneyimlediğim bir task oldu. Rast Mobile ailesine teşekkür ediyorum. Umarım olumlu değerlendirilirim ve en yakın zamanda başlarım. İyi günler. 

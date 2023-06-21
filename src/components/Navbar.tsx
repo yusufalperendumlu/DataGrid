@@ -58,16 +58,19 @@ const Navbar = () => {
           }`}
         >
           <li>
-            <a href="https://www.youtube.com/">
+            <a href="https://www.youtube.com/" target="_blank">
               <FaYoutubeSquare size={23} />
             </a>
-            <a href="https://www.instagram.com/mobilerast/">
+            <a href="https://www.instagram.com/mobilerast/" target="_blank">
               <FaInstagramSquare size={23} />
             </a>
-            <a href="https://www.behance.net/rastmobile">
+            <a href="https://www.behance.net/rastmobile" target="_blank">
               <FaBehanceSquare size={23} />
             </a>
-            <a href="https://www.linkedin.com/company/rastmobile/">
+            <a
+              href="https://www.linkedin.com/company/rastmobile/"
+              target="_blank"
+            >
               <FaLinkedin size={23} />
             </a>
           </li>
