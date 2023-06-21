@@ -1,6 +1,6 @@
 # DataGrid Project
 
-Bu proje [React-ts](https://vitejs.dev/) ve css kullanılarak [DataGrid](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/) uygulamamdır.
+Bu proje [React-ts](https://vitejs.dev/) ve css kullanarak geliştirdiğim [DataGrid](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/) uygulamamdır.
 
 ## Kullanılan Paketler
 
