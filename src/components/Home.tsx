@@ -3,6 +3,8 @@ import { useState } from "react";
 import { FaSearch, FaFilter, FaTimes } from "react-icons/fa";
 import { MdOutlineAdd } from "react-icons/md";
 
+import toast from "react-hot-toast";
+
 import Datagrid from "./Datagrid/Datagrid";
 
 import { addDataItem } from "../services/DataService";
@@ -30,6 +32,17 @@ const Home = () => {
       description: description,
     };
 
+    if (link === "" || name === "" || description === "") {
+      toast.error("Lütfen tüm alanları doldurunuz!"),
+        {
+          duration: 2000,
+          position: "right",
+          autoClose: false,
+          hideProgressBar: true,
+          close,
+        };
+      return;
+    }
     addDataItem(newData);
     setPopupOpen(false);
     setLink("");

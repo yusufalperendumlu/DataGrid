@@ -16,7 +16,7 @@ Home:
 
 Home.css ile alanını tasarladığımız bu kısımdan bahsedelim.
 
-Arama ve filtreleme yapıları tasarıma uygun olarak oluşuturup herhangi bir method oluşturmadım(Gerek tanımlama da veya figma üzerinde yapılmasına dair bir durum görmemem gerekse final dönemime denk gelmesinden dolayı o kısımla ilgilenmedim.)
+Arama ve filtreleme yapıları tasarıma uygun olarak oluşuturup herhangi bir method oluşturmadım.
 
 Yeni hesap ekleme için Home.tsx showOpen hooku ile conditionals yapısını kullanarak tıklanılması durumunda yeni bilgileri gireceğimiz modal açılacaktır. Ardından kaydetmesi durumunda service de kullandığım uuid npm paketiyle her bir idyi dönüyor. Taskta bonus olarak belirtilen kullanıcının localinde tutma işlemide yine service.ts de anlatımlı olarak LocalStroge kaydediliyor. Kaydedilenler props yapısındaki kullanım sebebiyle en üste konumlandırılıyor. 
 
